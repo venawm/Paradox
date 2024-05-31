@@ -1,0 +1,15 @@
+nav {
+  background-color: gray;
+}
+ul {
+  padding-inline: 150px;
+  padding-block: 20px;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}

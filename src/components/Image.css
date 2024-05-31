@@ -1,0 +1,108 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container {
+  position: relative;
+}
+.image-container,
+img {
+  opacity: 0.8;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 20%;
+  left: 37%;
+  color: black;
+  font-size: 3rem;
+  font-weight: 700;
+
+  z-index: 1;
+}
+.feature {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.feature-img {
+  border-radius: 40px;
+  width: 40rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.feature-p {
+  font-size: 5rem;
+  font-weight: 600;
+  max-width: 300px;
+  line-height: 1;
+}
+.orange {
+  color: rgb(227, 100, 54);
+}
+
+.feature-2 {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+}
+.nature {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative; /* Make the parent div relative */
+}
+
+.nature-img {
+  width: 88%;
+  border-radius: 20px;
+}
+
+.blurred-card {
+  position: absolute;
+  top: 50px;
+  left: 330px;
+  padding: 20px;
+  width: 800px;
+  height: 300px;
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-heading {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0;
+  color: #000; /* Adjust text color for readability */
+}
+.card-subtitle {
+  font-size: large;
+  color: #343434;
+}
+
+.card-button {
+  margin-top: 4.5rem;
+  border: none;
+  background-color: #000;
+  color: white;
+  border-radius: 10px;
+  padding-inline: 60px;
+  padding-block: 10px;
+}
+.card-button:hover {
+  background-color: #343434;
+  cursor: pointer;
+}
